@@ -19,10 +19,8 @@
 .flag-container{
 display: flex;
 align-items: center;
-padding-bottom: 20px;
-width: 30vh;
-}
-.flag-container img{
+padding: 20px;
+/* width: 30vh; */
 }
 .header-info{
     padding: 0 5%;
@@ -97,7 +95,7 @@ width: 50vw;
 .match-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    gap: 50px;
     margin-bottom: 100px;
 }
 .match-card{
@@ -110,8 +108,8 @@ width: 50vw;
 }
 
 footer{
-    background: #000;
     padding-top: 50px;
+    background: #000;
 }
 
 .footer-details{
@@ -120,6 +118,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    margin: 0 50px;
 }
 
 .footer-title{
@@ -142,6 +141,7 @@ footer{
 footer p{
     text-align: center;
 }
+
 /* --------For mobile device--------- */
 
 @media only screen and (max-width:688px){
