@@ -11,17 +11,16 @@
     color: #fff;
     display: flex;
     padding-top: 5%;
-    margin-bottom: 100px;
+    margin: 0 30px;
+    border-radius: 15px;
 }
 .header-info{
-    /* background: rgb(235, 149, 229); */
     padding: 0 5%;
 }
 .header-info h1{
-    font-size: 11vh;
+    font-size: 12vh;
 }
 .header-img{
-    /* background: green; */
     padding: 0 2%;
     display: flex;
     align-items: center;
@@ -43,10 +42,6 @@ width: 50vw;
     border-radius: 5px;
    
 }
-
-/* .match-menu{
-    display: flex;
-} */
 .anchor{
     display: flex;
     align-items: center;
@@ -56,10 +51,14 @@ width: 50vw;
     font-weight: bold;
     margin: 20px auto;
 }
-.anchor3{
+.anchor3 button{
     background: #dd0000;
-    margin: 25px 55px;
+    color: #fff;
+    border: 0;
+    padding: 10px 45px;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
 }
 #menu{
     background: #161616;
@@ -80,7 +79,6 @@ width: 50vw;
 .match-card{
     padding: 10px;
     border-radius: 5px;
-    /* border: 1px solid rgb(218, 132, 132); */
     box-shadow:5px 5px 5px 3px lightgray;
 }
 .match-card img{
@@ -89,7 +87,7 @@ width: 50vw;
 
 footer{
     background: #000;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 .footer-details{
@@ -97,6 +95,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .footer-title{
@@ -104,7 +103,20 @@ footer{
     color:#fff;
     text-align: center;
     padding-bottom: 50px;
-    padding-top: 0px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social-icons a{
+    color: #fcfcfc;
+    font-size: 25px;
+}
+footer p{
+    text-align: center;
 }
 /* --------For mobile device--------- */
 
@@ -142,6 +154,15 @@ footer{
     footer div p{
         margin-bottom: 20px;
     }
+
+    #menu{
+        background: #fdfcfc;
+        color: #0000;
+    }
+
+    .anchor{
+        color: #3c3636;
+    }
 }
 /* -----------For Tablet Devices------------ */
 @media screen and (min-width: 689px) and (max-width:992px) {
@@ -162,5 +183,18 @@ footer{
 .match-cards{
     grid-template-columns: repeat(2, 1fr);
 }
-    
+
+#menu{
+    background: #fdfdfd;
+    color: #0000;
+}
+
+.anchor{
+    color: #3c3636;
+    flex-direction: column-reverse;
+}
+  
+.match-menu{
+
+}
 }
