@@ -11,6 +11,7 @@
     color: #fff;
     display: flex;
     padding-top: 5%;
+    margin-bottom: 100px;
 }
 .header-info{
     /* background: rgb(235, 149, 229); */
@@ -40,6 +41,7 @@ width: 50vw;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5px;
+   
 }
 
 /* .match-menu{
@@ -77,7 +79,9 @@ width: 50vw;
 }
 .match-card{
     padding: 10px;
-    border: 1px solid rgb(218, 132, 132);
+    border-radius: 5px;
+    /* border: 1px solid rgb(218, 132, 132); */
+    box-shadow:5px 5px 5px 3px lightgray;
 }
 .match-card img{
     width: 100%;
