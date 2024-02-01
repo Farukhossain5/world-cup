@@ -31,24 +31,40 @@ width: 50vw;
 }
 
 .btn{
-    background: red;
-    color: #fff;
+    color: #fffdfd;
     border: 0;
-    padding: 1% 2%;
-    margin: 2% 0 0 0;
+    background: #dd0000;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px 15px;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5px;
 }
-.btn2{
-    color: #4e4c4c;
-    background: #fff;
-    border: 1px solid lightgray;
-}
-.match-menu{
+
+/* .match-menu{
     display: flex;
-    justify-content: center;
+} */
+.anchor{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.anchor3{
+    background: #dd0000;
+    margin: 25px 55px;
+    border-radius: 5px;
+}
+#menu{
+    background: #161616;
+    height: 312px;
+    width: 312px;
+    border-radius: 5px;
+    margin: 10px;
 }
 .main-section{
     display: flex;
