@@ -18,7 +18,7 @@
     padding: 0 5%;
 }
 .header-info h1{
-    font-size: 12vh;
+    font-size: 10vh;
 }
 .header-img{
     padding: 0 2%;
@@ -40,6 +40,20 @@ width: 50vw;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5px;
+   
+}
+.view-btn{
+    color: #fffdfd;
+    border: 0;
+    background: #dd0000;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 10px 45%;
+    display: none;
    
 }
 .anchor{
@@ -193,8 +207,8 @@ footer p{
     color: #3c3636;
     flex-direction: column-reverse;
 }
-  
-.match-menu{
-
+.view-btn{
+    display: block;
 }
+  
 }
