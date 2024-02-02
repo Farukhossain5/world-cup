@@ -20,8 +20,12 @@
 display: flex;
 align-items: center;
 padding: 20px;
-/* width: 30vh; */
 }
+/* #flag-container{
+    margin-top: 50px;
+} */
+
+/* --------------Style for flags end----------- */
 .header-info{
     padding: 0 5%;
 }
@@ -39,7 +43,7 @@ width: 50vw;
 }
 .button {
     border-radius: 4px;
-    background-color: #f4511e;
+    background-color: #66d9ea;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -117,12 +121,14 @@ width: 50vw;
 }
 .main-section{
     display: flex;
+    margin-top: 90px;
 }
 .match-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     margin-bottom: 100px;
+    
 }
 .match-card{
     padding: 10px;
